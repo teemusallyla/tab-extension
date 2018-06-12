@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Tab Killer",
+	"description": "Discards every open tab (excpet for the active one) until they're active again",
+	"version": "0.1",
+	"permissions": [
+		"tabs"
+	],
+	"browser_action": {
+		"default_title": "Kill the tabs"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
